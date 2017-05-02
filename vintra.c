@@ -21,8 +21,6 @@
 #include <net/sock.h>
 #include <net/af_vsock.h>
 
-/*These header files are included for xen-vchan usage
- * Author Michalis Rozis */
 #include <linux/highmem.h>
 #include <xen/xen.h>
 #include <xen/events.h>
@@ -1720,8 +1718,8 @@ static void __exit vchan_transport_exit(void)
 }
 module_exit(vchan_transport_exit);
 
-MODULE_AUTHOR("M.R Diploma");
-MODULE_DESCRIPTION("VCHANlike transport for Virtual Sockets");
+MODULE_AUTHOR("authorcommunity");
+MODULE_DESCRIPTION("vIntra transport module");
 MODULE_LICENSE("GPL v2");
-MODULE_ALIAS("vchanlike_vsock");
+MODULE_ALIAS("vIntra");
 MODULE_ALIAS_NETPROTO(PF_VSOCK);

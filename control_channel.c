@@ -21,8 +21,6 @@
 #include <net/sock.h>
 #include <net/af_vsock.h>
 
-/*These header files are included for xen-vchan usage
- * Author Michalis Rozis */
 #include <linux/highmem.h>
 #include <xen/xen.h>
 #include <xen/events.h>
