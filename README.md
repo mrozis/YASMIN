@@ -1,5 +1,5 @@
 # YASMIN
-YASMIN (Yet Another Shared Memory Implemntation for Intra-Node) framework for intra-node communication in the Xen Hypervisor
+YASMIN (Yet Another Shared Memory Implementation for Intra-Node) framework for intra-node communication in the Xen Hypervisor
 
 Instructions for testing:
 1) Setup guest VM.
