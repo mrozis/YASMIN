@@ -34,7 +34,7 @@
 #include <asm/xen/page.h>
 #include <asm/bitops.h>
 
-#include "vintra.h"
+#include "yasmin.h"
 #include "mechanics.h"
 #include "debug.h"
 

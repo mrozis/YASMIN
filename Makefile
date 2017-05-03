@@ -1,5 +1,5 @@
-obj-m += vintra_transport.o
-vintra_transport-objs := vintra.o control_channel.o mechanics.o
+obj-m += yasmin_transport.o
+yasmin_transport-objs := yasmin.o control_channel.o mechanics.o
 
 all:
 	make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules

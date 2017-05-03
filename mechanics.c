@@ -36,7 +36,7 @@
 #include <asm/bitops.h>
 
 #include "control_channel.h"
-#include "vintra.h"
+#include "yasmin.h"
 #include "debug.h"
 #include "mechanics.h"
 

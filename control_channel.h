@@ -1,7 +1,7 @@
 #ifndef _INTERDOMAIN_CHANNEL_H_
 #define _INTERDOMAIN_CHANNEL_H_
 
-#include "vintra.h"
+#include "yasmin.h"
 #include "mechanics.h"
 /*Interdomain Negotiation Channel stuff */
 #define VCHAN_HASH_SIZE 30
